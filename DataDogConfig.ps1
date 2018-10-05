@@ -1,3 +1,5 @@
+Configuration DataDogConfig
+{
 new-item C:\ProgramData\Datadog\conf.d\csharp.d -itemtype directory
 new-Item C:\ProgramData\Datadog\conf.d\csharp.d\conf.yaml -type file
 
@@ -9,3 +11,4 @@ new-Item C:\ProgramData\Datadog\conf.d\csharp.d\conf.yaml -type file
 "    service: hub" | Add-Content "C:\ProgramData\Datadog\conf.d\csharp.d\conf.yaml"
 "    source: csharp" | Add-Content "C:\ProgramData\Datadog\conf.d\csharp.d\conf.yaml"
 "    sourcecategory: sourcecode" | Add-Content "C:\ProgramData\Datadog\conf.d\csharp.d\conf.yaml"
+}
